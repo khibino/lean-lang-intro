@@ -1,0 +1,7 @@
+
+set path = (                 \
+    /mnt/lean/hibi/elan/bin  \
+    $path                    \
+    )
+
+rehash
