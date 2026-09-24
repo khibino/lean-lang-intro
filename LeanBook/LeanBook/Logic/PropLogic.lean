@@ -70,7 +70,7 @@ example (P : Prop) (hnp : ¬ P) (hp : P) : False := by
   -- 仮定 hp : P があるので、証明終わり
   exact hp
 
-/-- 対偶が元の命題と同地になることの、片方のケース -/
+/-- 対偶が元の命題と同値になることの、片方のケース -/
 example (P Q : Prop) (h : P → ¬ Q) : Q → ¬ P :=by
   -- Q ならば ¬ P を示したいの Q であったと仮定する
   intro hq
